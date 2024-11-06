@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'counter:inst|temp2[1]'
+Slack : -2.513
+TNS   : -13.293
+
+Type  : Slow 1200mV 85C Model Setup 'counter:inst|temp1[1]'
+Slack : -2.328
+TNS   : -15.093
+
+Type  : Slow 1200mV 85C Model Setup 'SW[0]'
+Slack : -2.257
+TNS   : -14.580
+
+Type  : Slow 1200mV 85C Model Hold 'SW[0]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'counter:inst|temp2[1]'
+Slack : 0.757
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'counter:inst|temp1[1]'
+Slack : 0.829
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SW[0]'
+Slack : -3.000
+TNS   : -13.280
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'counter:inst|temp1[1]'
+Slack : 0.352
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'counter:inst|temp2[1]'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'counter:inst|temp2[1]'
+Slack : -2.346
+TNS   : -12.497
+
+Type  : Slow 1200mV 0C Model Setup 'counter:inst|temp1[1]'
+Slack : -2.218
+TNS   : -14.501
+
+Type  : Slow 1200mV 0C Model Setup 'SW[0]'
+Slack : -2.037
+TNS   : -12.879
+
+Type  : Slow 1200mV 0C Model Hold 'SW[0]'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'counter:inst|temp2[1]'
+Slack : 0.817
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'counter:inst|temp1[1]'
+Slack : 0.871
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SW[0]'
+Slack : -3.000
+TNS   : -13.280
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'counter:inst|temp1[1]'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'counter:inst|temp2[1]'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'counter:inst|temp2[1]'
+Slack : -1.108
+TNS   : -5.209
+
+Type  : Fast 1200mV 0C Model Setup 'counter:inst|temp1[1]'
+Slack : -0.847
+TNS   : -5.003
+
+Type  : Fast 1200mV 0C Model Setup 'SW[0]'
+Slack : -0.665
+TNS   : -3.885
+
+Type  : Fast 1200mV 0C Model Hold 'SW[0]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'counter:inst|temp1[1]'
+Slack : 0.219
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'counter:inst|temp2[1]'
+Slack : 0.239
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SW[0]'
+Slack : -3.000
+TNS   : -12.340
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'counter:inst|temp2[1]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'counter:inst|temp1[1]'
+Slack : 0.459
+TNS   : 0.000
+
+------------------------------------------------------------

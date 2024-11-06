@@ -1,0 +1,20 @@
+|mux4_1
+LEDG[0] <= mux:inst.y
+SW[0] => mux:inst.a
+SW[1] => mux:inst.b
+SW[2] => mux:inst.c
+SW[3] => mux:inst.d
+SW[4] => mux:inst.sel[0]
+SW[5] => mux:inst.sel[1]
+
+
+|mux4_1|mux:inst
+a => Mux0.IN0
+b => Mux0.IN1
+c => Mux0.IN2
+d => Mux0.IN3
+sel[0] => Mux0.IN5
+sel[1] => Mux0.IN4
+y <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

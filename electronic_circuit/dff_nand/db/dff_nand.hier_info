@@ -1,0 +1,14 @@
+|dff_nand
+LEDR[0] <= example:inst.q
+SW[0] => example:inst.a
+SW[1] => example:inst.b
+SW[2] => example:inst.clk
+
+
+|dff_nand|example:inst
+a => temp.IN0
+b => temp.IN1
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

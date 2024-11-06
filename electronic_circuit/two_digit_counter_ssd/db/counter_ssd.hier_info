@@ -1,0 +1,52 @@
+|counter_ssd
+HEX0[6] <= counter:inst.digit1[6]
+HEX0[5] <= counter:inst.digit1[5]
+HEX0[4] <= counter:inst.digit1[4]
+HEX0[3] <= counter:inst.digit1[3]
+HEX0[2] <= counter:inst.digit1[2]
+HEX0[1] <= counter:inst.digit1[1]
+HEX0[0] <= counter:inst.digit1[0]
+SW[0] => counter:inst.clk
+SW[1] => counter:inst.reset
+HEX1[6] <= counter:inst.digit2[6]
+HEX1[5] <= counter:inst.digit2[5]
+HEX1[4] <= counter:inst.digit2[4]
+HEX1[3] <= counter:inst.digit2[3]
+HEX1[2] <= counter:inst.digit2[2]
+HEX1[1] <= counter:inst.digit2[1]
+HEX1[0] <= counter:inst.digit2[0]
+
+
+|counter_ssd|counter:inst
+clk => temp2[0].CLK
+clk => temp2[1].CLK
+clk => temp2[2].CLK
+clk => temp2[3].CLK
+clk => temp1[0].CLK
+clk => temp1[1].CLK
+clk => temp1[2].CLK
+clk => temp1[3].CLK
+reset => temp2[0].ACLR
+reset => temp2[1].ACLR
+reset => temp2[2].ACLR
+reset => temp2[3].ACLR
+reset => temp1[0].ACLR
+reset => temp1[1].ACLR
+reset => temp1[2].ACLR
+reset => temp1[3].ACLR
+digit1[6] <= digit1[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit1[5] <= digit1[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit1[4] <= digit1[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit1[3] <= digit1[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit1[2] <= digit1[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit1[1] <= digit1[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit1[0] <= digit1[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit2[6] <= digit2[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit2[5] <= digit2[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit2[4] <= digit2[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit2[3] <= digit2[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit2[2] <= digit2[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit2[1] <= digit2[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+digit2[0] <= digit2[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
