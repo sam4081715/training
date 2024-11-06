@@ -7,4 +7,4 @@
    2. machine_learning
       數據相關maching learning程式撰寫練習
 
-2. electronic_circuit
+3. electronic_circuit
